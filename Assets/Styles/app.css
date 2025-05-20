@@ -44,9 +44,20 @@
   ==========================================================================
 
 */
+
 .align-items-center {
   align-items: center;
 }
+.justify-items-center {
+  justify-content: center;
+}
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 1;
+}
+
 /*
 
   RESET STYLES
@@ -260,8 +271,8 @@ nav {
   background-image: url("../Images/header-avatar.jpg");
   background-position: center;
   background-size: cover;
-  width: 55rem;
-  height: 55rem;
+  width: 50rem;
+  height: 50rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
