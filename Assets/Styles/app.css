@@ -40,6 +40,15 @@
 
 /*
 
+  HELPER CALSS
+  ==========================================================================
+
+*/
+.align-items-center {
+  align-items: center;
+}
+/*
+
   RESET STYLES
   ==========================================================================
 
@@ -211,14 +220,14 @@ nav {
 */
 
 .home {
-
+  margin-top: 8rem;
 }
 .home__content {
 
 }
 .home__name {
   color: var(--primary-color);
-  font-family: 2.8rem;
+  font-size: 3rem;
   font-family: "Poppins-SemiBold";
   margin: 0;
 }
@@ -227,7 +236,7 @@ nav {
 }
 .home__title {
   color: var(--primary-color);
-  font-size: 5rem;
+  font-size: 6rem;
   font-family: "Poppins-Bold";
   margin: 0;
 }
@@ -235,6 +244,7 @@ nav {
   font-family: "Poppins-Regular";
   font-size: 1.6rem;
   margin-top: 0;
+  opacity: 0.7;
 }
 .home__links-wrapper {
   display: flex;
@@ -250,8 +260,8 @@ nav {
   background-image: url("../Images/header-avatar.jpg");
   background-position: center;
   background-size: cover;
-  width: 50rem;
-  height: 50rem;
+  width: 55rem;
+  height: 55rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
