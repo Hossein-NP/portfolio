@@ -26,6 +26,7 @@
   font-family: "Poppins-SemiBold";
   color: #fff;
   background-color: var(--primary-color);
+  box-shadow: 0 16px 100px -12px var(--primary-color);
   border-radius: 3rem;
   -webkit-border-radius: 3rem;
   -moz-border-radius: 3rem;
@@ -34,6 +35,7 @@
 }
 .app__btn--orange {
   background-color: var(--secondery-color);
+  box-shadow: 0 16px 100px -12px var(--secondery-color);
 }
 
 /*
@@ -235,12 +237,25 @@ nav {
   margin-top: 0;
 }
 .home__links-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.home__link{
   
 }
-.home__link {
-  
+.home__link:last-child {
+  /* margin-left: 2rem; */
 }
-
 .home__picture {
   background-image: url("../Images/header-avatar.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0 0 0px 16px #fff, 0 0 126px -62px var(--primary-color);
 }
