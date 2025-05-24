@@ -105,17 +105,17 @@ body {
 .cover {
   width: 100%;
   height: 0;
-  background-color: #c4d8d677;
+  background-color: #c4d8d641;
   position: fixed;
   z-index: 998;
 }
 .cover__open {
   height: 100%;
-  transition: opacity 250ms ease-in-out;
-  -webkit-transition: opacity 250ms ease-in-out;
-  -moz-transition: opacity 250ms ease-in-out;
-  -ms-transition: opacity 250ms ease-in-out;
-  -o-transition: opacity 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
 }
 nav {
   display: flex;
@@ -225,7 +225,7 @@ nav {
 */
 
 .home {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 .home__content {
 
