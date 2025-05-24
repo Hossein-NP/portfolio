@@ -2,13 +2,27 @@
   .home__picture {
     width: 46rem;
     height: 46rem;
-  
   }
 }
 @media screen and (max-width: 1200px) {
+  .home__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
   .home__picture {
-    margin-bottom: 12rem;
+    width: 40rem;
+    height: 40rem;
+    margin: 8rem auto;
   }
+  .home__title {
+  font-size: 5rem;
+}
+.home__name {
+  font-size: 2.5rem;
+}
 }
 @media screen and (max-width: 992px) {
   .nav__logo {

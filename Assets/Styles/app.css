@@ -26,7 +26,7 @@
   font-family: "Poppins-SemiBold";
   color: #fff;
   background-color: var(--primary-color);
-  box-shadow: 0 16px 100px -12px var(--primary-color);
+  box-shadow: 0 16px 58px -12px var(--primary-color);
   border-radius: 3rem;
   -webkit-border-radius: 3rem;
   -moz-border-radius: 3rem;
@@ -35,7 +35,7 @@
 }
 .app__btn--orange {
   background-color: var(--secondery-color);
-  box-shadow: 0 16px 100px -12px var(--secondery-color);
+  box-shadow: 0 16px 58px -12px var(--secondery-color);
 }
 
 /*
@@ -50,12 +50,6 @@
 }
 .justify-items-center {
   justify-content: center;
-}
-.order-1 {
-  order: 1;
-}
-.order-2 {
-  order: 1;
 }
 
 /*
