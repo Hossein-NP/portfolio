@@ -1,7 +1,10 @@
 @import url(fonts.css);
 @import url(normalize.css);
 @import url(grid.css);
-
+::selection {
+  background-color: #333;
+  color: var(--primary-color);
+}
 :root {
   --section-bg-color: #fff; /* WHITE */
   --app-bg-color: #fff; /* WHITE */
