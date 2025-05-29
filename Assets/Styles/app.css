@@ -222,7 +222,11 @@ nav {
 */
 .main {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   
+=======
+  /* padding-top: 14rem; */
+>>>>>>> Stashed changes
 =======
   /* padding-top: 14rem; */
 >>>>>>> Stashed changes
@@ -287,7 +291,11 @@ nav {
   -o-border-radius: 50%;
   box-shadow: 0 0 0px 16px var(--section-bg-color), 0 0 126px -62px var(--primary-color);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
 =======
 }
 >>>>>>> Stashed changes
