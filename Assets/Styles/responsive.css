@@ -17,6 +17,9 @@
     height: 40rem;
     margin: 4rem auto;
   }
+  .order-xl-0 {
+    order: 0;
+  }
   .order-xl-1 {
     order: 1;
   }
