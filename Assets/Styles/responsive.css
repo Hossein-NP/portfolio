@@ -11,24 +11,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+  }
   .home__picture {
     width: 40rem;
     height: 40rem;
     margin: 4rem auto;
   }
-  .order-xl-0 {
+  .home__title {
+    font-size: 5rem;
+  }
+  .home__name {
+    font-size: 2.5rem;
+  }
+  .order-none {
     order: 0;
   }
-  .order-xl-1 {
-    order: 1;
-  }
-  .home__title {
-  font-size: 5rem;
-}
-.home__name {
-  font-size: 2.5rem;
-}
 }
 @media screen and (max-width: 992px) {
   .nav__logo {
@@ -37,6 +34,15 @@
   .menu__items {
     margin-left: 2rem;
   }
+  .order-lg-0 {
+    order: 0;
+  }
+  .order-lg-1 {
+    order: 1;
+  }
+  .home {
+  background-image: none;
+}
 }
 @media screen and (max-width: 768px) {
   .menu {

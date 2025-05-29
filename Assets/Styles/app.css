@@ -89,6 +89,7 @@ body {
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--section-bg-color);
+  padding-top: 14rem; /* Adjusted for fixed header */
 }
 
 /* 
@@ -104,6 +105,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
+  top: 0;
 }
 .cover {
   width: 100%;
@@ -219,7 +221,7 @@ nav {
   ==========================================================================
 */
 .main {
-  padding-top: 14rem;
+  
 }
 /* 
 
@@ -229,6 +231,10 @@ nav {
 
 .home {
   margin-top: 4rem;
+  background-image: url("../Images/shapes/header-shape.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 85rem;
 }
 .home__content {
 
@@ -275,5 +281,5 @@ nav {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  box-shadow: 0 0 0px 16px #fff, 0 0 126px -62px var(--primary-color);
+  box-shadow: 0 0 0px 16px var(--section-bg-color), 0 0 126px -62px var(--primary-color);
 }
