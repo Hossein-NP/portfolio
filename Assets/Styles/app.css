@@ -40,7 +40,45 @@
   background-color: var(--secondery-color);
   box-shadow: 0 16px 58px -12px var(--secondery-color);
 }
-
+.section-head {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.section-head__title {
+  font-size: 4.8rem;
+  font-family: "Poppins-Bold";
+  margin: 0;
+  color: var(--primary-color);
+}
+.section-head__cap {
+  font-family: "Poppins-Regular";
+  margin: 0.5rem 0 2rem 0;
+  color: var(--text-color);
+}
+.section-head__lines {
+  display: block;
+  width: 18rem;
+  height: 0.2rem;
+  background-color: var(--primary-color);
+  margin: 0 auto;
+  position: relative;
+}
+.section-head__lines::before {
+  content: "";
+  width: 4rem;
+  height: 0.8rem;
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -0.4rem;
+  margin: 0 auto;
+}
 /*
 
   HELPER CALSS
@@ -72,7 +110,6 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
-
 /*
 
   APP STYLES
@@ -282,4 +319,75 @@ nav {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   box-shadow: 0 0 0px 16px var(--section-bg-color), 0 0 126px -62px var(--primary-color);
+}
+
+/* 
+
+  MAIN >> ABOUT US SECTION  
+  ==========================================================================
+*/
+.aboutus {
+  margin-top: 6rem;
+}
+.about {
+  display: flex;
+  box-shadow: 0 .5rem 4rem rgba(4, 195, 255, 16%);
+}
+.about__cover {
+  flex-basis: 50%;
+  flex-shrink: 0;
+}
+.about__cover-img {
+  width: 100%;
+}
+.about__content {
+  flex-basis: 50%;
+  flex-shrink: 0;
+  padding: 4rem;
+}
+.about__content-title {
+  font-family: "Poppins-SemiBold";
+  font-size: 2.4rem;
+  margin: 0 0 1.6rem;
+}
+.about__content-cap {
+  margin: 0 0 7rem;
+  text-align: justify;
+}
+.about__list-title {
+  font-family: "Poppins-SemiBold";
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin: 0 0 1.6rem;
+}
+.about-list {
+}
+.about-list__items {
+  margin: 0 0 1.2rem;
+  padding-left: 3rem;
+  position: relative;
+}
+.about-list__items:last-child {
+  margin-bottom: 0;
+}
+.about-list__items::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #F57F17;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.about__btns {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.8rem;
 }
